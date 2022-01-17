@@ -32,14 +32,18 @@ footer {
 }
 
 nav .nav-item:hover {
-    color: black !important;
+    color: rgb(31, 36, 80) !important;
 }
 nav .nav-item a:hover,:focus,:active  {
-color: black !important;
+color: rgb(38, 37, 73) !important;
+}
+nav .nav-item-middle {
+margin-left: 2.4em;
+font-size: 1.3rem;
 }
 nav .nav-item {
-padding: 0% 5% 0% 10% !important;
-margin: 0% !important;
+    margin-left: .4em;
+    font-size: 1rem;
 }
 .show-on-hover:hover > ul.dropdown-menu {
     display: block;    
@@ -173,5 +177,11 @@ textarea{
     }
     .middle{
         width: 100%;
+    }
+    .badge-bill{
+        display: none !important;
+    }
+    #searchIcon{
+        display: none !important;
     }
 }

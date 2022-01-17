@@ -1,6 +1,6 @@
 # Social-Media-Template 🤳
 
-## Third Project - 2 Pages (Front End Developer)
+## Third Project - 2 Pages (Front End Developing)
 
 ### created with HTML5, CSS3, BootStrap, and some Vanilla JavaScript
 - Clean Code.

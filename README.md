@@ -5,7 +5,7 @@
 - Responsive.
 
 ### Result 
-![screenshot](images/login.jpg)
+![screenshot](images/login.jpeg)
 
 ### Project Description
 The **Social-Media-Template** website consists of 2 pages, created as a part of my scholarship at **ITI**.
@@ -24,4 +24,4 @@ To build I followed the following steps:
 
 # Demo => https://doaa-hindawii.github.io/Social-Media-template/
 
-# Run it with live server...
+#Run it with live server...

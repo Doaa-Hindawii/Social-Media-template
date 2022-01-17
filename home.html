@@ -33,7 +33,7 @@
 
 <body>
 
-  <!-- Navbar -->
+    <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark p-1 sticky-top fc-navbar">
     <div class="container-fluid">
       <a class="navbar-brand" href="#home">
@@ -41,36 +41,48 @@
         Logo
       </a>
 
+      <input class="form-control mr-sm-2" id="searchIcon" type="search" placeholder="Search Facebook" aria-label="Search"
+        style="width: 20vw; border-radius: 25px; height: 6vh;">
+
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto  mb-2 mb-lg-0">
+          <li class="nav-item-middle px-1 ">
+            <a class="nav-link" href="#search"><i class="fas fa-home"></i></a>
+          </li>
+          <li class="nav-item-middle px-1">
+            <a class="nav-link" href="#profile"><i class="fab fa-youtube-square"></i></a>
+          </li>
+          <li class="nav-item-middle px-1 ">
+            <a class="nav-link" href="#mail"><i class="fas fa-store"></i></a>
+          </li>
+          <li class="nav-item-middle px-1 ">
+            <a class="nav-link" href="#mail"><i class="fas fa-users"></i></a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
+          <a class="myIcon mr-2" href="#profile"><img class="rounded-circle" src="images/profile.jpg" width="35px"
+              height="35px"></a>
+          <span class="Username" style="color: whitesmoke"></span>
 
           <li class="nav-item px-1 ">
-            <a class="nav-link" href="#search"><i class="bi bi-globe"></i></a>
+            <a class="nav-link" href="#mail"><i class="fab fa-facebook-messenger"></i></a>
           </li>
-          <li class="nav-item px-1 ">
-            <a class="nav-link" href="#profile"><i class="bi bi-person-fill"></i></a>
+
+          <li class="nav-item">
+            <a class="nav-link"><i class="fas fa-bell"></i><span class="sr-only"></span></a>
           </li>
-          <li class="nav-item px-1 ">
-            <a class="nav-link" href="#mail"><i class="bi bi-envelope-fill"></i></a>
-          </li>
+
           <li class="nav-item dropdown show-on-hover">
             <a class="nav-link dropdown-toggle" href="#notification" id="navbarDropdown" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="bi bi-bell-fill"></i><sup class="badge bg-success rounded-circle pr-2 pl-2">3</sup></a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">One new friend request</a></li>
-              <li><a class="dropdown-item" href="#">John Doe posted on your wall</a></li>
-              <li><a class="dropdown-item" href="#">Jane likes your post</a></li>
-            </ul>
+            </a>
           </li>
         </ul>
-        <a class="float-right myIcon mr-2" href="#profile"><img class="rounded-circle" src="images/profile.jpg"
-            width="35px" height="35px"></a>
-        <span class="Username" style="color: whitesmoke"></span>
+
       </div>
     </div>
   </nav>

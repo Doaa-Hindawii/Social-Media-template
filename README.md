@@ -2,7 +2,7 @@
 
 ## Third Project - 2 Pages (Front End Developer)
 
-### created with HTML5, CSS3, Javascript (Vanilla), Bootstrap.
+### created with HTML5, CSS3, BootStrap, and some Vanilla JavaScript
 - Clean Code.
 - Responsive.
 

@@ -7,7 +7,7 @@
 - Responsive.
 
 ### Project Description
-The **Social-Media-Template** website consists of 2 pages, created as a part of my scholarship at ITI.
+The **Social-Media-Template** website consists of 2 pages, created as a part of my scholarship at **ITI**.
 The task was to build a multi section landing page with dynamically built navigation, login and Validate it. 
 
 ### Building

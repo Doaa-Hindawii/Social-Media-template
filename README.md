@@ -5,7 +5,7 @@
 - Responsive.
 
 ### Result 
-![screenshot](images/login.jpeg)
+![screenshot](images/login.png)
 
 ### Project Description
 The **Social-Media-Template** website consists of 2 pages, created as a part of my scholarship at **ITI**.

@@ -6,7 +6,7 @@
 
 ### Result 
 ![screenshot](images/login.png)
-![screenshot](images/Web%20capture_17-1-2022_155029_doaa-hindawii.github.io.jpeg)
+![screenshot](images/web-capture.jpeg)
 
 ### Project Description
 The **Social-Media-Template** website consists of 2 pages, created as a part of my scholarship at **ITI**.

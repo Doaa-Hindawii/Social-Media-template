@@ -3,6 +3,8 @@
 ## Third Project - 2 Pages (Front End Developer)
 
 ### created with HTML5, CSS3, Javascript (Vanilla), Bootstrap.
+- Clean Code.
+- Responsive.
 
 ### Project Description
 The **Social-Media-Template** website consists of 2 pages, created as a part of my scholarship at ITI.

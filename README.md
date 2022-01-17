@@ -1,10 +1,11 @@
 # Social-Media-Template 🤳
 
-## Third Project - 2 Pages (Front End Developing)
-
 ### created with HTML5, CSS3, BootStrap, and some Vanilla JavaScript
 - Clean Code.
 - Responsive.
+
+### Result 
+![screenshot](images/login.jpg)
 
 ### Project Description
 The **Social-Media-Template** website consists of 2 pages, created as a part of my scholarship at **ITI**.
@@ -21,7 +22,6 @@ To build I followed the following steps:
 - Login page with validation.
 - In addition, used cookies. When you sign your name it will display on the home page.
 
-### Result 
-
-
 # Demo => https://doaa-hindawii.github.io/Social-Media-template/
+
+# Run it with live server...

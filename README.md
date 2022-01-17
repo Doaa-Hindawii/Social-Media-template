@@ -1,4 +1,4 @@
-# Social-Media-Template 📱
+# Social-Media-Template 📑 🤳
 
 ## Third Project - 2 Pages (Front End Developer)
 

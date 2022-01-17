@@ -1,0 +1,177 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+hr {
+    border: 0%;
+    border-top: 1px solid whitesmoke;
+    margin: 10vh 0%;
+} 
+.counter.counter-lg {
+    top: -24px !important;
+}
+
+.dot {
+    height: 15px;
+    width: 20%;
+    background-color: rgb(35, 131, 26);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.navbar {
+padding: 0% !important;
+margin: 0% !important;
+background-color: #4267b2 !important;
+border-bottom: 1px solid #29487d !important;
+}
+footer {
+    background-color: #4267b2 !important;
+}
+
+nav .nav-item:hover {
+    color: black !important;
+}
+nav .nav-item a:hover,:focus,:active  {
+color: black !important;
+}
+nav .nav-item {
+padding: 0% 5% 0% 10% !important;
+margin: 0% !important;
+}
+.show-on-hover:hover > ul.dropdown-menu {
+    display: block;    
+}
+/*----- Facebook Icons -----*/
+.fc-list-group-item{
+    background-color: #e9ebee;
+    border: none;
+    font-size: 14px;
+    padding: 6px;
+}
+
+.fc-label{
+    color: #616770;
+    display: block;
+    white-space: nowrap;
+    width: 0;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.list-group-item{
+    border: 0 none !important;
+}
+.fc-icon {
+    height:22px;
+    width:22px;
+    background-image:url('./../images/icons.png');
+}
+
+.fc-icon-messenger {
+    background-position: 37px -367px;
+}
+
+.fc-icon-feeds {
+    background-position: 142px -496px;
+}
+
+.fc-icon-watch {
+    background-position: 142px -559px;
+}
+
+.fc-icon-marketplace {
+    background-position: 316px -474px;
+}
+
+.fc-icon-Memories {
+    background-position: 218px -496px;
+}
+
+.fc-icon-Saved {
+    background-position: 316px -391px;
+}
+
+.fc-icon-Groups {
+    background-position: 80px -367px;
+}
+
+.fc-icon-Pages {
+    background-position: 400px -391px;
+}
+
+.fc-icon-Events {
+    background-position: 337px -412px;
+}
+
+
+textarea{
+    border: none !important;
+}
+
+.fc-btn{
+    border-radius: 2px;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+.fc-btn-default{
+    background-color: #f5f6f7;
+    border-color: #ccd0d5;
+    color: #4b4f56;
+}
+
+.fc-btn-white{
+    background-color: #fff;
+    border: none;
+    color: #4b4f56;
+}
+
+.fc-btn-rounded{
+    background-color: #f5f6f7;
+    border: none;
+    color: #4b4f56;
+    border-radius: 20px;
+    width: 8rem;
+    height: 5vh;
+}
+
+.fc-icon label{
+    margin-left: 75%;
+    margin-top: 2px;
+    width: 100px;
+}
+.post-icons {
+    margin-right: 8% !important;
+}
+.fc-icon-photo-video {
+    background-position: 142px -517px;
+}
+
+.fc-icon-live-video {
+    background-position: 57px -475px;
+}
+
+.fc-icon-Feeling {
+    background-position: 120px -454px;
+}
+
+
+/* --- media query -- */
+
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 768px) {
+    .right{
+        display: none;
+    }
+    .left{
+        display: none;
+    }
+    .middle{
+        width: 100%;
+    }
+}

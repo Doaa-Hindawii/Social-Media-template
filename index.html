@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Sign In Form | Home</title>
+  <link rel="icon" href="./images/logo.png" type="image/icon type">
+</head>
+
+<body class="d-flex align-items-center vh-100">
+  <main class="container">
+    <div class="row mt-5">
+      <div class="col-lg-6 g-0">
+        <img class="img-fluid h-100" src="./images/undraw_mobile_login_re_9ntv.svg" alt="image next to form">
+      </div>
+
+      <div class="col-lg-6 g-0">
+        <div class="text-center mb-2">
+          <h3>Welcome back!</h3>
+        </div>
+
+        <form class="px-4 py-4 needs-validation" novalidate action="./home.html">
+          <label for="validationCustomUsername" class="form-label">Username</label>
+          <div class="input-group mb-4 has-validation">
+            <span class="input-group-text">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+              </svg>
+            </span>
+            <input type="text" class="form-control" id="validationCustomUsername" placeholder="e.g. Doaa" required>
+            <div class="invalid-feedback">
+              Please choose a username.
+            </div>
+          </div>
+
+          <label for="email" class="form-label">Email</label>
+          <div class="input-group mb-4 has-validation">
+            <span class="input-group-text">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope"
+                viewBox="0 0 16 16">
+                <path
+                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
+              </svg>
+            </span>
+            <input type="email" class="form-control" id="email" placeholder="e.g. name@example.com" required>
+            <div class="invalid-feedback">
+              Please choose a valid email.
+            </div>
+          </div>
+
+          <label for="password" class="form-label">Password</label>
+          <div class="input-group mb-4 has-validation">
+            <span class="input-group-text">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z" />
+              </svg>
+            </span>
+            <input type="password" class="form-control" id="password" placeholder="e.g M101dh$" required>
+            <div class="invalid-feedback">
+              Please choose a valid password.
+            </div>
+          </div>
+
+          <div class="d-grid mb-4">
+            <button class="btn btn-primary" type="submit">Log in</button>
+          </div>
+
+        </form>
+
+      </div>
+
+    </div>
+  </main>
+  <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+      'use strict'
+
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.querySelectorAll('.needs-validation')
+
+      // Loop over them and prevent submission
+      Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+          form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+            }
+            else {
+              setCookie("userName", inputs[0].value);
+              location.assign("http://127.0.0.1:5500/home.html");
+
+            }
+            form.classList.add('was-validated')
+          }, false)
+        })
+    })()
+  </script>
+  <script src="js/cookies.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

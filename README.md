@@ -11,13 +11,13 @@ The task was to build a multi section landing page with dynamically built naviga
 ### Building
 To build I followed the following steps: 
 
-1. Setting up the environment
-1. Building out my HTML5 with at least three content sections using BootStrap.
-1. Building the navigation menu.
-1. Adding functionality to distinguish the section in view.
-1. Refactoring and testing the performance.
-1. Login page with validation.
-1. In addition, used cookies. When you sign your name it will display on the home page.
+- Setting up the environment
+- Building out my HTML5 with at least three content sections using BootStrap.
+- Building the navigation menu.
+- Adding functionality to distinguish the section in view.
+- Refactoring and testing the performance.
+- Login page with validation.
+- In addition, used cookies. When you sign your name it will display on the home page.
 
 ### Result 
 

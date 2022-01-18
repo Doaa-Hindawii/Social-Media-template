@@ -13,9 +13,6 @@ To build I followed the following steps:
 
 - Setting up the environment
 - Building out my HTML5 with at least three content sections using BootStrap.
-- Building the navigation menu.
-- Adding functionality to distinguish the section in view.
-- Refactoring and testing the performance.
 - Login page with validation.
 - In addition, used cookies. When you sign your name it will display on the home page.
 

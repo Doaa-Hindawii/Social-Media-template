@@ -14,7 +14,7 @@ To build I followed the following steps:
 - Setting up the environment
 - Building out my HTML5 with at least three content sections using BootStrap.
 - Login page with validation.
-- In addition, used cookies. When you sign your name it will display on the home page.
+- In addition, used *cookies*. When you sign in your name it will display on the home page.
 
 #Demo => https://doaa-hindawii.github.io/Social-Media-template/
 
